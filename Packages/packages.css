@@ -1,0 +1,69 @@
+main {
+  padding-top: 50px;
+}
+body {
+  background: whitesmoke;
+}
+
+.background-image {
+  background: url("../image2.jpg");
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.package {
+  margin: 20px;
+  margin-left: 0;
+  width: 65%;
+  border: 4px solid rgb(234, 243, 100);
+  border-left: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.986);
+}
+section > a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+#basic {
+  background-color: rgb(145, 238, 181);
+}
+#thunder {
+  background-color: rgb(241, 191, 99);
+}
+
+#corporate {
+  background-color: rgb(165, 164, 243);
+}
+
+.package:hover,
+.package:active {
+  border-color: red;
+}
+
+#basic p {
+  background-color: white;
+  border: 2px solid rgb(35, 66, 35);
+  padding: 5px;
+}
+#thunder p {
+  background-color: white;
+  border: 2px solid rgb(235, 79, 44);
+  padding: 5px;
+}
+#corporate p {
+  background-color: white;
+  border: 2px solid rgb(47, 44, 235);
+  padding: 5px;
+}
+main h1 {
+  font-size: 25px;
+  color: #383836;
+}
+main h3 {
+  font-size: 18px;
+  color: rgb(132, 136, 136);
+}
